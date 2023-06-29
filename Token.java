@@ -9,7 +9,7 @@ class Token {
         this.type = type;
         this.lexeme = lexeme;
         this.literal = literal;
-        this.line = line;
+        this.line = line; //line for error handeling, very simple but line is good enough
     }
 
     public String toString()
